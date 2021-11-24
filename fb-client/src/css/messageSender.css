@@ -1,0 +1,156 @@
+
+.messageSender{
+  display: flex;
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 4px 2px 10px white;
+  flex-direction: column;
+  box-sizing: border-box;
+  
+}
+
+.messageSender__top{
+  display: flex;
+  align-items: center;
+  flex:1;
+}
+
+.messageSender__top form {
+  flex:1;
+  background-color:whitesmoke;
+  border-radius: 20px;
+  margin-left: 10px;
+  padding: 10px;
+
+  
+}
+
+.messageSender__top form input {
+ width: 100%;
+ background: transparent;
+ border: 0;
+ outline: 0;
+  
+}
+
+.messageSender__bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid lightgray;
+  margin-top: 15px;
+
+}
+
+.messangerOptions{
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.messangerOptions:hover{
+ background-color: whitesmoke;
+}
+
+.messangerOptions p{
+  margin-left: 10px;
+  font-weight: bold;
+  color: rgb(36, 33, 33);
+  /* background-color: red; */
+ 
+}
+
+/* model popup css start */
+
+.model__pop{
+  top: 20%;
+  background-color: white;
+  width: 500px;
+  margin: 0px auto;
+  position: relative;
+  /* transform: translateY(-50%); */
+  padding: 10px;
+  border-radius: 10px;
+ 
+}
+
+.model__headding{
+  text-align: center;
+  border-bottom:1px solid lightgray;
+  height: 40px;
+}
+
+
+.model__headding .close__icon{
+  color: red;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+
+}
+
+.modelHeader__top{
+  display: flex;
+  padding: 15px 0px;
+  align-items: center;
+
+}
+
+.modelHeader__top h5{
+  margin-left: 10px;
+}
+
+.model__body textarea{
+  width: 100%;
+  min-height: 100px;
+  border: none;
+  font-size: 25px;
+  outline-width:0px;
+  padding: 10px 0px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+
+.model__footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border:1px solid lightgray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+.MuiButton-root{
+  width: 100%;
+  background-color: #2391fa !important;
+  color: white !important;
+  font-weight: bold !important;
+  padding: 10px 20px !important;
+  text-transform: uppercase !important;
+ 
+}
+
+
+
+
+/*  images added message csss start */
+
+.image_selected{
+  color: rgb(0, 165, 8);
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+

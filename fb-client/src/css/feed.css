@@ -1,0 +1,18 @@
+.feed{
+width: 100%;
+  padding: 30px 150px;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin-top: 50px;
+  overflow-y: auto;
+  /* border: 1px solid red; */
+ 
+ 
+
+}
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+
